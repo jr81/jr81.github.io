@@ -1,0 +1,498 @@
+= Resume – John L. Resler (DRAFT)
+// data-uri - embed my image in the resume. 
+:data-uri:
+
+// :linkcss: - embedded css is the default, unless you use :linkcss:
+//   http://asciidoctor.org/docs/render-documents/#styling-the-html-with-css[How do I render a document? | Asciidoctor]
+
+// cpp - use an attribute for impossibly tough C++ escaping
+:cpp: C++ 
+
+:frame: none
+:grid: none 
+[cols="1,5a",width"20"]
+|===================================================================================================
+| image:/home/jresler/Pictures/John/John125x125.jpg[My Picture,200,200] |
+[horizontal]
+Location:: St. Louis, Missouri
+Phone:: 636-352-1100
+Email:: mailto:jlresler@gmail.com[jlresler@gmail.com]
+|===================================================================================================
+
+== This Resume Has a _Dual-Read_ Design
+
+*To save _you_ time, this resume reads 2 ways...*
+
+1. Scan the *_Titles and Bold Font, to screen_ for a fit*
+2. Read *_deeper where you have questions_*
+
+_Having hired dozens of engineers myself, I hope this helps._
+
+== Skip me, if...
+
+- You just need something *"quick-and-dirty" and you don't care about the _total cost of
+ownership_*.  My specialty is creating (or re-creating) clean, well documented _code that 
+makes the whole team look good_.
+
++
+
+In other words, *my code _protects you_, by making it easy for the _next_ person to modify it.*  It
+takes a bit longer, but it saves countless hours, dollars, and bugs down the line.  If you _only_
+need to "get stuff out the door", others are faster.
+
+- Your project is *not _mainly_ Python (or possibly JavaScript)*.  While I enjoy other languages, I'd
+rather be your _strongest_ Python developer, then your _weakest_ PHP hack.
+
+== Consider interviewing me, if...
+
+[[python_expert]] You want a Python Expert:: _No one knows everything, but you'll get your money's worth_.
+
++
+
+Invested 15 man-years inventing, designing, writing, testing, and
+maintaining a *51,000 line (SLOC), highly re-factored Python RAD business development framework
+using an _agile, full test harness_ methodology.*
+
++
+
+_Framework is like a Super-RAD Django or web2py that can write 3 month applications in 2 weeks._
+
++
+
+Advanced Python *skills include replacing or improving core modules*, such as string,
+inspect, datetime, exception and unittest.  Plus, used the hottest coding techniques from the latest
+versions of Python.
+
+You need Mission-Critical Reliability:: Average programmers are a dime a dozen. Few have 51,000 line
+frameworks to their credit.  You _can't_ achieve this, without _great design, great documentation,
+and exceptionally reliable code_.
+
+You need to Communicate:: Software needs to _communicate_ with users, using clear inviting screens and clean
+uncluttered output.
+
++
+
+*Created all aspects of an Internet marketing site that delivered _marketing results, 30X industry
+average_.*  +
+_See Leadership Examples_
+
+You want Unstoppable Results::  When you invent something, the "buck" stops with you.  _So, you
+learn to solve any problem, no matter how tough._
+
+You need Vision::  Using 2 digit years, my _earliest_ programs were Y2K compliant; decades before the
+computer industry realized there would _be_ a year 2000.
+
+You value Simplicity:: I have a _knack_ for *finding simple solutions to complex problems.*
+
+You _don't_ want to be "Owned by the Programmer":: We've all seen the _"Empire Builder"_ who
+writes _"spaghetti code"_ so complex, only _he_ can maintain it.  While _he gets short-term job
+security, you get long-term headaches._  *My code actually _teaches_ the next person how to use it!*
+
+== General Abilities
+
+Use this section to *judge if I have the _aptitude_ you need.*  For example, could I write a low-level
+interface?  Could I learn your business needs?  Could I lead a team?
+
+=== Low-Level Skills
+
+Programmed the _very_ first IBM PC in Missouri::  (Not the first model; the very first PC sold in
+Missouri) Since there were no _PCs_, there were no classes to take, people to ask, or sites to
+Google.  You *had to solve every problem*!
+
++
+
+At the time, IBM Pascal was the best compiler, but the libraries were so primitive, you couldn't even
+clear the screen.
+
+- Created an interrupt driven, high-speed, *Pascal BIOS wrapper.*  This required analyzing the PC
+BIOS source, and linking to a self-modifying, assembly language TSR (Terminate but Stay Resident)
+interface.
+
+- Created high-speed, *Pascal screen driver* that auto-detected video card buffers and wrote between
+refresh cycles to be "flicker-free."  
+
+- Created high-speed *window manager with "scrolling windows"* long before MS Windows.  Clients were
+amazed by its *shocking speed.*
+
+- Traded ideas with industry pioneers, such as Peter Norton (Norton Anti Virus) and John Sosha.
+
+Created the First Reliable Windows SendKey Program:: As late as 2001, there existed no reliable
+keyboard macro program for Windows.  Over time, even the best commercial programs dropped keys
+frequently enough to crash mission-critical programs.
+ 
++
+
+With a $2,000,000 program on the line, a desperate Scheduling Software VAR contacted me to create
+a bullet-proof interface to the no-API data source he depended on.  *If he couldn't stop the crashes,
+he was going out of business.*
+
++
+
+In a few days, *wrote a C DLL that _never_ failed.*
+
++
+
+How?  Having grown up with the PC, I remembered Bill Gates originally wanted Windows to open up in
+a "Tutorial Mode".  As Bill's pet project, this hook _had_ to reliable, so I confirmed it was still
+there, accepted the job, and wrote the code.  It's amazing the commercial vendors missed this.
+
+=== High-Level Skills
+
+Tool Development:: Life-time passion for pushing the software productivity envelope.  Created the
+following tools.
+
+- Pascal - development *framework* for early IBM PC
+- dBaseII - *templating system*
+- DataFlex 4GL - *application generator* wrapper
+- MagicPC 4GL - *application generator* wrapper
+- Python - *Custom RAD framework*
+
+Rapid Application Development::  Using the above tools, specialized in writing highly reliable,
+custom software for a fraction of the price. +
+The following *examples are _not_ exaggerated:*
+
+- A St. Louis based shoe company desperately needed a custom multi-size, multi-color inventory
+control system. Personally *wrote inventory control, in 1 month*. The next bidder was $140,000, with
+a _one-year_ delivery.
+
+- When I took over as IT Director for a pharmaceutical company, the *company risked shutdown and
+$millions in DEA fines*, because of buggy software.  Personally *rewrote 3 years of drug-tracking
+software in 2 weeks, to eliminate the risk.*
+
+
+Large Application Development:: 
+
+- For a multi-state company, *wrote fast food chain software, after 2 Fortune 500 companies
+failed.*  Software was end-to-end, from the store cash-registers, to the corporate consolidation and
+management software.
+
+- Wrote *three commercial grade accounting systems*, to include _General Ledger, Accounts
+Receivable, Accounts Payable, Inventory Control, Bill of Materials, Order Entry, Sales Management
+and Payroll._  Software *represents 150 person-years* (SLOC).
+
+=== Leadership and Communication Examples
+
+Lead 7 People to Write 50 Years Worth of Software in 2 Weeks::  Why would anybody attempt to
+write 50 people-years worth of software in only 2 weeks?
+
+_not_ make sense unless you understand _there was an urgent and compelling business need to prove the
+worthiness of my software department._
+
++ 
+
+As a young VP of Software Development, who had merged his company's assets with a larger company to
+produce the first commercial 4GL accounting system, I wound up _betting_ the President my team could
+write the whole package "in only 2 weeks, if the other managers would leave my programmers alone."
+
++
+
+While admittedly heated for a few minutes, the conversation quickly became in a friendly, uplifting
+challenge that rallied the whole company.  *The bet?  Custom T-Shirts and donuts!*
+
++
+
+I knew we could do it, *if I could convince my team.*  So, after getting my project manager on
+board, I pulled them into the conference room and locked the door.  "Team, we're about to do
+something that _seems_ impossible. We're going to write the whole 50 year accounting system in the
+next two weeks!  Why?  Because I heard one-time-too-many, that you guys were the reason the software
+wasn't getting done, when I know you're the best there is.  So, if it takes the rest of the day,
+that door only opens one of two ways."
+
+1. I've convinced you, you _are_ the best, and we can do this with our technology.
+
+2. I've convinced you I'm _nuts_, in which case you can spend the next 2 weeks at home, but you
+_can't_ take credit when the rest of us pull this off.
+
++
+
+*We won the bet!*  And, we earned the respect my team deserved.
+
+New Internet Marketing Method:: Conceived of, and implemented a *new way to use Internet marketing
+to _communicate the value of hard-to-explain products_* for business to business, or business to
+consumer sales.
+
++
+
+Studied top marketing experts to uncover _success patterns_.  Then broke with tradition to create a
+fresh new way of contacting people with the utmost in respect and consideration.  The new approach
+*delivered a 32 percent appointment ratio, when a 1 percent ratio is considered good.*
+
++ 
+
+Designed and implemented all aspects of the project
+
+- Web scrappers
+- Telemarketing scripts 
+- 20 minute video script, that kept them watching!
+- Did "news anchor" style presentation for videos
+- Web copy
+- Web design
+- Web software
+- Custom Email system
+- Tele-prompting software and scripts
+- Marketing and educational films scripts and graphics
+- Video voice over for marketing and educational films
+- Video editing
+- Custom charge-card system
+- Etc.
+
++ 
+
+*Stats:* From a phone-directory, cold-called 4,700 business owners to net 32 appointments per 100
+contacts.  _The system produced so much new business, it could not be handled, and the telemarketer
+had to be limited to 2 hours per day._
+
+
+Other Leadership Examples::  *President, VP, Director and Project Lead.*  See chronology.
+
+
+== Technical Checklists
+
+Here's a quick (no place to hide), technical check list.
+
+xxxresume TODO Catagorize by Expert, etc. Strong, Working, Comfortable, Exposure  vs Familiar Tables.  template languages, etc.
+
+// caption turns of 'Table 1' etc
+:caption:
+:frame: all
+:grid: all
+
+.Expert Language Skills
+[cols="1,8,1,1"]
+|===================================================================================================
+|Technology | Description | Years| Months
+
+
+| Python | 51,000 line framework see <<python_expert,python expert>>. Imported modules: ap ap_args argparse ast atexit
+autologging calendar cgi cherrypy cmd colander collections cookie cookielib copy cPickle css
+cStringIO csv ctypes cups curses datetime decimal dialog docopt email enchant etree evolution
+eyed3 fileinput functools gdbm getgrgid getpass getuid github glob globals gpgme hmac html
+httplib icalendar imaplib imp inspect io ipdb jedi json jsonp jsonpickle logging loggingd logpy
+lxml markmin2html math mechanize moviepy MySQLdb numpy optparse os os.path pdb pickle PIL pprint
+py_compile pycha.bar pydoc pyexiv2 pyminifier pymongo pyparsing pyweb random ranger re readline
+readlink repair reportlab selenium setrights shelve shlex shutil simplelogger smtplib socket sqlite3
+strftime string subprocess sys tagpy tempfile textwrap threading tidy time Tkinter tokenize types
+unittest urllib urllib2 validator warnings weakref wx xml.dom yaml | 15 | 0
+
+
+| MagicPC | Powerful 4GL RAD used by the Israeli Air force. Eventually wrapped it in my own
+Application Generator.  Developed numerous commercial applications and one generic accounting
+system.
+
+Was considered a top expert and was contracted to answer support questions the companies own support
+staff could not answer. | 3 | 0
+
+| DataFlex | 4GL RAD.  First commercially successful, multi-user, professional network based
+development platform. Eventually wrapped it in my own Application Generator.  Developed numerous
+commercial applications in the St. Louis area and one generic accounting system.
+
+Was considered a language expert and conducted advanced database training for professional VARS
+throughout the mid-west. | 3 | 0
+|===================================================================================================
+
+.Strong Language Skills
+[cols="1,8,1,1"]
+|===================================================================================================
+
+| C/{cpp} | Used {cpp} Builder version of Delphi to develop business framework and water industry
+application. All routines coded in {cpp} Used C for high-reliability keyboard macro application | 4 |
+1
+
+| JavaScript      | JavaScript feels like Python with callbacks and braces.  Wrote 
+| 0  | 0
+
+| IBM Pascal      | Very similar to a C compiler                    | 0  | 0
+| web2py          | TODO                                            | 0  | 0
+| HTML5           | Flow. TODO                                      | 0  | 0
+| Markup          | asciidoc, restructured text, markdown TODO      | 0  | 0
+| Linux           | TODO                                            | 0  | 0
+| zsh             | TODO                                            | 0  | 0
+| CGI             | TODO                                            | 0  | 0
+| SQL             | MySQL Tools automatically generate MySQL calls  | 4  | 2
+| wxPython        | Tools automatically generate wxPython screens.  | 4  | 2
+| Agile           | Agile/Unit driven programming                   | 0  | 0
+| Windows         | COM 3.11 to. Developed Ghost | 0  | 0
+| Windows Server  | 3.11 to                                         | 0  | 0
+| Exchange Server | 3.11 to                                         | 0  | 0
+| Applications    | TODO clients, art museum                        | 0  | 0
+
+|===================================================================================================
+
+
+.Operating Systems
+[cols="1,8,1,1"]
+|===================================================================================================
+
+
+| Accounting | Lead development 3 RAD accounting systems. Functionally comparable to
+the core of applications like Macola.
+| 1 | 0
+
+|Hardware | Designed, installed and maintained Novell, MS, Linux/FreeBSD
+5 to 90 user networks for clients.
+| 8 | 0
+
+|Linux | Strong Linux background. vim, grep, regex, tcsh, virtualbox,
+gimp, cinellera, audacity, kdenlive, xface, gnome, apache, etc.
+| 10 | 6
+
+| Pascal | TODO | 0 | 0
+| dBASE II | TODO | 0 | 0
+| VisualBasic | With MS Access TODO | 0 | 0
+| Delphi | See {cpp} | 0 | 0
+| Vim | TODO | 0 | 0
+| Misc Languages | DB-Master, Awk, Perl, | 0 | 0
+|===================================================================================================
+
+== Professional Chronology
+
+[cols="2,6a"]
+|=================================================================================================
+
+|*Sep 11–Present*
+|*Python Development – Desktop to Web Conversion*  
+
+Conversion of my 51,000 line (SLOC) cross-platform RAD development framework from a GUI/SQL
+_desktop_ design, to an HTML5/NoSQL _Web_ design.
+
+|*Feb 11-Aug 11*
+|*Lead Web Developer – Sypris Electronics Cyber Lab*
+
+web2py Web portal: Developed the *secure Web portal* to company's flagship _Cyber-Range_ security training/testing lab.
+
+Using the _web2py_ full-stack MVC framework Web framework, I did the "heavy lifting" to be handed off
+to junior programmers.  Designed the site architecture, documentation, and enhancement methodology.
+Replaced the web2py CRUD framework, with a more maintainable table-based CRUD design. Assisted other
+developers to achieve a smooth transition.
+
+|*May 07-Feb 11*
+|*Web Development – My Company*
+
+*Innovative Internet Marketing Website:* Designed and created all aspects of an innovative, secured,
+charge-card enabled, Internet marketing site--considered to be a breakthrough by veterans in the
+industry. Also created all written, audio/video content used by thousands.
+
+*JavaScript/jQuery/AJAX framework:* Developed JavaScript/jQuery cross-browser framework to handle
+all functions needed by Website, such as current country scraping, form validation, cookie handling,
+and so on.
+
+*JavaScript/Python CGI Client Email Generator*: Wrote JavaScript/Python client Email generator to
+send template based Emails for registered users. Automatically formats Emails and eliminates any
+need for novices to understand web address or how to create Emails.
+
+*JavaScript/Python CGI Website Tracker*: Created Tracker class to track all aspects of Website use
+and store data in SQL database. Even tracked how far videos were played.
+
+*JavaScript/Python CGI Secured Payment Processing API*: Reduced overly complex Authorize.net payment
+processing API to 4 simple commands--Create,Update,Status and Cancel.
+
+*JavaScript/Python MySQL CGI Class Wrapper:* Wrote powerful, light Python MySQL CGI wrapper to
+handle SQL CGI back end. Wrapper generates SQL on-the-fly, from passed dictionaries, or static
+templates for optimization. Wrapped in automatic test unit.
+
+*JavaScript/Python CGI Cross-Domain WebScrapper*: Turned remote Website (with their permission) into
+my own on-demand CGI database server.  Scrapped very complex broken HTML into meaningful data that
+looked like it was coming from my server. Had to handle cookies and password logins.
+
+*Python to HTML Website Generator:* Generated the complete Website from Python code using a single
+command. Handled, audio, video, images, links, text, etc.  Automatically updated only the site
+differences to prevent slowing live site with updates.
+
+|*August 05-April 07*
+|*QA - Emdeon (WebMD)*
+
+In charge of Quality Assurance for ABF devision of Emdeon (originally WebMD). Hired from
+contract-to-hire position to help maintain software and write automated test units for QA.
+
+System was extremely complex with thousands of tables and programs written in many different
+languages spread out over many servers. In addition to modifying the system, it was my
+responsibility to develop test units to trap bugs and data errors. It required a team of 23
+engineers to maintain this software, which printed millions of Insurance EOB pages and checks per
+day.
+
+Main technologies used: VB, Delphi, FoxPro, {cpp}, Python, Perl, Ruby and COM.
+
+|*April 93-July 05*
+|*Networking and Framework Development* (My Company)
+
+Acted as outside IT Director for several manufacturing companies in order to fund development of
+RAD business development framework versions 3 and 4. Designed, installed and maintained 40 to 90
+workstations network systems. Use framework to develop accounting and service software for water
+treatment industry.
+
+|*May 91-March 93*
+|*Hands-On IT Director - Bock Pharmical*
+
+Built IT department for 5^th^ fastest growing pharmaceutical company in America.
+
+In 2 weeks, used RAD development technology to personally rewrite and replace all failing mission
+critical software that had been developed by an outside custom software firm over the prior 3 years.
+
+Wrote DEA drug tracking software used internally by Bock.  The DEA agents preferred our system to
+their own and used it to catch-up on their backlog.
+
+In my first 2 weeks on the job, stopped "Big Four" accounting firm from implementing $400,000 MRPII
+software system that would have been a disaster for our packaging division.  Successfully replaced
+it with a more appropriate $60,000 system.
+
+Designed and build custom high-capacity network file servers using PC technology saving more than
+$300,000 _per year_ verses larger computer alternatives.
+
+Hired, trained, developed and managed hardware, custom software and PC support staff supporting
+nearly 400 Bock employees.
+
+|*May 81-April 93*
+
+(Less Feb 85-April 86)
+
+|*President, CEO Resler Data Systems, Inc.*
+
+Software development firm with 13 employees including a partnership level CPA and former Fortune 500
+CFO on staff.
+
+Developed commercial grade accounting software designed for small to medium sized businesses.
+Functionally comparable to leading packages such a Macola. Software was filed at the U.S. Copyright
+office and marketed under the name _Beyond Accounting_.
+
+For only $265,000, developed fast food chain system.  System was end-to-end, from the custom built,
+grease resistant store computers that captured cash register data, to the corporate headquarters
+system that monitored and analyzed the Data in a near real-time.  My company was the only company to
+succeed after two Fortune 100 companies had failed.
+
+Developed numerous other custom applications including, wholesale distribution, HVAC service
+job costing, DOT hazardous materials compliant chemical BOM inventory, medical distribution
+inventory/accounting, union benefits accounting and an inventory control for a St. Louis based shoe
+company.
+
+|*February 85-April 86*
+|*Vice President of Software Development*
+
+Cache Data Products, Inc. a computer networking distributor.
+
+In a mutual agreement, Cache acquired the assets and staff of Resler Data to produce a commercial
+grade accounting system filed at the U.S. Copyright office and marketed under the name of Full-Time
+_Accounting_.
+
+As Vice President of Software Development, also conducted advanced programming seminars for
+professional custom software development firms in St. Louis, Chicago and Minneapolis.
+
+|=================================================================================================
+
+== Education:
+
+1980 B.S. - Industrial Engineering, Missouri State University. Honors
+
+== Personal Attributes:
+
+Team Player:: Friendly, cooperative, and comfortable in a subordinate, peer, or leadership position.
+
+Exceptional Communication Skills:: Truly enjoy working with people in all walks of life, from
+factory workers to scientists and CEOs.
+
+Self Initiative::  I am the only person I know crazy enough to work 20 years on any project of any
+type, with no supervision and without giving up.  Why?  Because I hope to change the way we write
+software, in order to make truly remarkable software affordable to the masses.
+
+Quick Study::  Ability to grasp new technologies and concepts quickly; with or without formal training.
+
+Personal:: Good health. Two great kids; a son in IT, and a daughter in nuclear engineering.  Hobby is singing.
